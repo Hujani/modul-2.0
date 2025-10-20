@@ -1,11 +1,31 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-color: #e9f5ff;
+    margin: 40px;
 }
+
 h1 {
-  color: #333;
+    color: #1b4f72;
+    text-align: center;
 }
+
 p {
-  color: #555;
+    color: #444;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.kotak {
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    margin: 30px auto;
+}
+
+.kotak:hover {
+    background-color: #148f77;
 }
