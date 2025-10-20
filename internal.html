@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh CSS Internal</title>
+
+    <!-- CSS Internal ditulis langsung di tag <style> di dalam file HTML -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        .kotak {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 250px;
+            margin: 30px auto;
+        }
+
+        .kotak:hover {
+            background-color: #1d6fa5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contoh Penggunaan CSS Internal</h1>
+    <p>
+        CSS internal digunakan dengan menuliskan kode CSS langsung di dalam file HTML, 
+        biasanya di antara tag <code>&lt;style&gt;</code> di bagian <code>&lt;head&gt;</code>. 
+        Metode ini cocok untuk halaman kecil atau eksperimen cepat.
+    </p>
+
+    <div class="kotak">Ini adalah contoh elemen CSS Internal</div>
+</body>
+</html>
